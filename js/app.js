@@ -6,7 +6,10 @@ const BuyGrandma = document.getElementById("BtnGrandma")
 
 
 btnCookie.onclick = function () {
-    NbCookies.innerHTML
+    NbCookies.innerHTML = +1
+    NbDollars.innerHtml = +1
 }
 
-btnCookie.onclick = 
+btnGrandma.onclick = function () {
+    NbGrandma.innerHTML == +1
+}
